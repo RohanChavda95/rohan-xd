@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.header {
+  background-color: blue;
+  border-bottom-right-radius: 90%;
+}
+.bp {
+  padding: 10px;
+}
+.btn {
+  background-color: rgb(161, 228, 53);
+  padding: 10px;
+  margin: 10px;
+  color: white;
+}
+.headertop {
+  color: white;
+}
+.headerlogo {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.headertext {
+  display: flex;
+  padding: 10px;
+}
+.work {
+  background-color: aliceblue;
+}
+.workheading {
+  padding: 30px;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  gap: 20px;
+}
+.box1 {
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(156, 156, 237), 0 0 5px;
+  background-color: white;
+  border: 1px solid;
+  padding: 20px;
+}
+.box2 {
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(156, 156, 237), 0 0 5px;
+  background-color: white;
+  border: 1px solid;
+  padding: 20px;
+}
+.box3 {
+  box-shadow: 1px 1px 2px black, 0 0 25px rgb(156, 156, 237), 0 0 5px;
+  background-color: white;
+  border: 1px solid;
+  padding: 20px;
+}
+.boxinfo {
+  color: rgb(116, 110, 110);
+}
+
+.domainapps {
+  padding: 20px;
+}
+.domainheading {
+  text-align: center;
+}
+.domainparent {
+  display: flex;
+  gap: 30px;
+}
+.domainbox {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid lightgrey;
+}
+.domainbox:hover,
+.domainbox:hover p {
+  color: white;
+  background-color: blue;
+}
+.extradomain {
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  margin: auto;
+}
+.aboutus {
+  background-image: url(../Images/Background.png);
+}
+.aboutcontent {
+  padding: 20px;
+  width: 500px;
+  color: white;
+}
+.cuheading {
+  padding: 20px;
+  text-align: center;
+}
+.form {
+  display: flex;
+}
+.formmsg {
+  color: blue;
+}
+.row1 {
+  margin: 20px;
+}
+.row2 {
+  margin: 20px;
+}
+.row3 {
+  margin: 20px;
+}
+.formdata {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+.contactinfo {
+  color: white;
+  background-color: blue;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 30px;
+}
+.medialogo {
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer {
+  background-color: aliceblue;
+  text-align: center;
+  padding: 20px;
+}
+.drone {
+  margin-top: -15%;
+  margin-left: 80%;
+}
